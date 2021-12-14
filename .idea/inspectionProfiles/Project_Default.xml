@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GradlePackageUpdate" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="excludeList">
+        <list>
+          <option value="io.ktor:ktor-server-core" />
+          <option value="io.ktor:ktor-serialization" />
+          <option value="io.ktor:ktor-server-netty" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
