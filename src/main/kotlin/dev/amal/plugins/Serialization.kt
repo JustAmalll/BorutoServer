@@ -8,13 +8,5 @@ import io.ktor.request.*
 import io.ktor.routing.*
 
 fun Application.configureSerialization() {
-    install(ContentNegotiation) {
-        json()
-    }
-
-    routing {
-        get("/json/kotlinx-serialization") {
-                call.respond(mapOf("hello" to "world"))
-            }
-    }
+    install(ContentNegotiation) { json() }
 }
