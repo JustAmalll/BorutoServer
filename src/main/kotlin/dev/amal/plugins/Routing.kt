@@ -1,6 +1,7 @@
 package dev.amal.plugins
 
 import dev.amal.routes.getAllHeroes
+import dev.amal.routes.getAllHeroesAlternative
 import dev.amal.routes.root
 import dev.amal.routes.searchHeroes
 import io.ktor.routing.*
@@ -13,7 +14,8 @@ import io.ktor.request.*
 fun Application.configureRouting() {
     routing {
         root()
-        getAllHeroes()
+//        getAllHeroes()
+        getAllHeroesAlternative()
         searchHeroes()
         static("/images") {
             resources("images")

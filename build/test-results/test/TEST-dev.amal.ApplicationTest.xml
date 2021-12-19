@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="dev.amal.ApplicationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-12-14T18:09:19" hostname="DESKTOP-4K2OS7Q" time="0.806">
+<testsuite name="dev.amal.ApplicationTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-12-18T08:40:56" hostname="DESKTOP-4K2OS7Q" time="0.968">
   <properties/>
-  <testcase name="access search heroes endpoint, query hero name, assert multiple heroes result" classname="dev.amal.ApplicationTest" time="0.737"/>
-  <testcase name="access all heroes endpoint, query invalid page number, assert error" classname="dev.amal.ApplicationTest" time="0.006"/>
-  <testcase name="access search heroes endpoint, query non existing hero, assert empty list as a result" classname="dev.amal.ApplicationTest" time="0.005"/>
-  <testcase name="access search heroes endpoint, query hero name, assert single hero result" classname="dev.amal.ApplicationTest" time="0.006"/>
-  <testcase name="access search heroes endpoint, query an empty text, assert empty list as a result" classname="dev.amal.ApplicationTest" time="0.004"/>
-  <testcase name="access all heroes endpoint, query all pages, assert correct information" classname="dev.amal.ApplicationTest" time="0.016"/>
-  <testcase name="access non existing endpoint,assert not found" classname="dev.amal.ApplicationTest" time="0.006"/>
-  <testcase name="access root endpoint, assert correct information" classname="dev.amal.ApplicationTest" time="0.009"/>
-  <testcase name="access all heroes endpoint, query non existing page number, assert error" classname="dev.amal.ApplicationTest" time="0.015"/>
-  <system-out><![CDATA[2021-12-15 00:09:19.885 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
-2021-12-15 00:09:19.895 [Test worker] INFO  ktor.test - Application started in 0.072 seconds.
-2021-12-15 00:09:19.922 [Test worker] INFO  [Koin] - loaded 1 definitions - 2.5239 ms
+  <testcase name="access search heroes endpoint, query hero name, assert multiple heroes result" classname="dev.amal.ApplicationTest" time="0.871"/>
+  <testcase name="access all heroes endpoint, query invalid page number, assert error" classname="dev.amal.ApplicationTest" time="0.01"/>
+  <testcase name="access search heroes endpoint, query non existing hero, assert empty list as a result" classname="dev.amal.ApplicationTest" time="0.008"/>
+  <testcase name="access search heroes endpoint, query hero name, assert single hero result" classname="dev.amal.ApplicationTest" time="0.016"/>
+  <testcase name="access search heroes endpoint, query an empty text, assert empty list as a result" classname="dev.amal.ApplicationTest" time="0.01"/>
+  <testcase name="access all heroes endpoint, query all pages, assert correct information" classname="dev.amal.ApplicationTest" time="0.028"/>
+  <testcase name="access non existing endpoint,assert not found" classname="dev.amal.ApplicationTest" time="0.008"/>
+  <testcase name="access root endpoint, assert correct information" classname="dev.amal.ApplicationTest" time="0.008"/>
+  <testcase name="access all heroes endpoint, query non existing page number, assert error" classname="dev.amal.ApplicationTest" time="0.005"/>
+  <system-out><![CDATA[2021-12-18 14:40:57.007 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
+2021-12-18 14:40:57.020 [Test worker] INFO  ktor.test - Application started in 0.091 seconds.
+2021-12-18 14:40:57.052 [Test worker] INFO  [Koin] - loaded 1 definitions - 2.4347 ms
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
