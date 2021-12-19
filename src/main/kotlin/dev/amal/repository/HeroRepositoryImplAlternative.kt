@@ -381,8 +381,8 @@ class HeroRepositoryImplAlternative : HeroRepositoryAlternative {
         ApiResponse(
             success = true,
             message = "ok",
-            prevPage = calculatePage(heroes = heroes, page = page, limit = limit)[PREVIOUS_PAGE_KEY],
-            nextPage = calculatePage(heroes = heroes, page = page, limit = limit)[NEXT_PAGE_KEY],
+            prevPage = calculatePage(heroes = heroes, page = page, limit = limit)["prevPage"],
+            nextPage = calculatePage(heroes = heroes, page = page, limit = limit)["nextPage"],
             heroes = provideHeroes(heroes = heroes, page = page, limit = limit),
             lastUpdated = System.currentTimeMillis()
         )
